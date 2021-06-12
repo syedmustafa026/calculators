@@ -50,3 +50,11 @@
     word-wrap: break-word;
     word-break: break-all;
   }
+  .output>input {
+    color: rgba(255, 255, 255, .75);
+    font-size: 1.5rem;
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    height: 100%;
+  }
