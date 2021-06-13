@@ -7,11 +7,14 @@
   body {
     padding: 0;
     margin: 0;
-    background: linear-gradient(to right, #404138, #788179);
+    background-image: url(pngtree-mathematics-education-calculator-ruler-hand-drawn-background-image_340649.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background: linear-gradient(to right, #404138, #788179); */
   }
   input{
       outline: none;
-     
   }
   .calculator-grid {
     display: grid;
@@ -21,24 +24,27 @@
     grid-template-columns: repeat(4, 100px);
     grid-template-rows: minmax(120px, auto) repeat(5, 100px);
   }
- .calculator-grid > button {
+  
+  .calculator-grid > button {
     cursor: pointer;
     font-size: 2rem;
     border: 1px solid white;
     outline: none;
+    color: blanchedalmond;
     border: 2px groove rgb(179, 179, 179);
-    background-color: rgba(255, 255, 255, 0.931);
-    box-shadow: 2px 2px 6px rgb(0, 0, 0);
+    background-color: rgba(66, 63, 63, 0.931);
   }
-
+  
   .calculator-grid > button:hover {
     background-color: rgba(238, 235, 235, 0.9);
+    color: rgb(0, 0, 0)
   }
   
   .span-two {
     grid-column: span 2;
   }
-    .output {
+  
+  .output {
     grid-column: 1 / -1;
     background-color: rgba(36, 36, 36, 0.75);
     display: flex;
@@ -47,19 +53,25 @@
     flex-direction: column;
     padding: 10px;
     border: 8px groove black;
+    border-radius: 10px;
     word-wrap: break-word;
     word-break: break-all;
   }
+  
   .output>input {
-    color: rgba(255, 255, 255, .75);
+    color: rgb(255, 255, 255);
     font-size: 1.5rem;
     width: 100%;
+    font-size: 40px;
     background-color: transparent;
     border: none;
     height: 100%;
   }
- input:active{
+  
+  input:active{
     border: none;
     background-color: transparent;
   }
+  
+
   
