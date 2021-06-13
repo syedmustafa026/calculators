@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -15,8 +16,8 @@
         <div class="output">
             <input disabled type="text" id="fn">
         </div>
- <button onclick="clearResult()">AC</button>
-        <button onclick="clearResult('00')">C</button>
+        <button onclick="clearResult()">AC</button>
+        <button onclick="clearLast('00')">C</button>
         <button onclick="submitData('.')">.</button>
         <button onclick="submitData('/')">÷</button>
         <button onclick="submitData('1')">1</button>
@@ -34,7 +35,9 @@
         <button onclick="submitData('00')">00</button>
         <button onclick="submitData('0')">0</button>
         <button onclick="getResult()" class="span-two">=</button>
-        </div>
+    </div>
+
     <script src="app.js"></script>
 </body>
+
 </html>
