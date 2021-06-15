@@ -11,8 +11,11 @@ function getResult() {
     }
 
 function clearLast(){
- xyz.value = xyz.value.substring(0, xyz.value.length - 1);
+ xyz.value = xyz.value.slice(0, - 1);
 }
-if (xyz.value === false){
-    alert("ERROR")
+
+
+function setvalue(num){
+var val = document.getElemntById("val")
+
 }
